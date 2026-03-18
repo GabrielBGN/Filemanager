@@ -36,5 +36,7 @@ Key Concepts:
 -Low-level file handling in C
 
 Author:
+
 Gabriel Balogun
+
 Computer Science Student – UTA
