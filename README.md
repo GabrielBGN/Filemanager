@@ -2,7 +2,8 @@
 A lightweight file system implemented in C that simulates disk storage using a custom disk image and fixed-size blocks. This project demonstrates core operating system concepts such as block allocation, file metadata management, and low-level file I/O.
 
 Features:
-Designed and implemented a virtual disk using fixed-size blocks (256 bytes)
+
+-Designed and implemented a virtual disk using fixed-size blocks (256 bytes)
 
 -Built a file management system supporting create, read, update, and delete operations
 
@@ -15,14 +16,17 @@ Designed and implemented a virtual disk using fixed-size blocks (256 bytes)
 -Structured file metadata using an inode-like system (DABPT and BPT)
 
 Build and Run:
+
 gcc -O2 -Wall -Wextra -std=c11 fs.c -o FS
 ./FS
 
 Comands: 
+
 Createfs, Openfs, Formatfs, Put, Get, List,
 Rename, Remove, Link, Unlink, Quit
 
 Key Concepts:
+
 -File system architecture
 
 -Memory and block management
